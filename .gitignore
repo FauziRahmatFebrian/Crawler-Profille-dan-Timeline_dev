@@ -1,0 +1,54 @@
+# Environment
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ChromeDriver binaries (download sesuai OS masing-masing)
+chromedriver
+chromedriver.exe
+chromedriver-*
+chromedriver-linux64/
+chromedriver-win64/
+chromedriver-mac*/
+
+# Hasil crawl / data mentah
+data/
+data_proffile/
+downloaded_images/
+logs/
+reports/
+output/
+Training/crawler.log
+Training/proxy_alive.txt
+
+# Model files / artifacts
+*.pkl
+*.onnx
+*.h5
+*.pt
+
+# Kredensial / rahasia hardcoded
+Training/sync.js
+
+# File sistem Windows
+desktop.ini
+Thumbs.db
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Command Code
+.commandcode/

@@ -1,0 +1,15 @@
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "created_at": {
+              "gte": "now-180d/d"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

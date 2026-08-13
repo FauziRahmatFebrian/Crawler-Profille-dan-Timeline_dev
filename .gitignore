@@ -36,9 +36,6 @@ Training/proxy_alive.txt
 *.h5
 *.pt
 
-# Kredensial / rahasia hardcoded
-Training/sync.js
-
 # File sistem Windows
 desktop.ini
 Thumbs.db

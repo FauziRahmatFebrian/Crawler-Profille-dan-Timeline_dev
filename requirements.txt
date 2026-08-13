@@ -1,0 +1,31 @@
+# Core
+python-dotenv
+requests
+pandas
+matplotlib
+
+# Crawler Instagram
+instagrapi
+selenium
+
+# Database
+pymysql
+mysql-connector-python
+elasticsearch
+
+# NLP / AI
+transformers
+torch
+google-generativeai
+deep-translator
+Sastrawi
+emoji
+langdetect
+scikit-learn
+wordcloud
+
+# Dashboard
+streamlit
+
+# Sync (Training/sync.js)
+elasticdump
